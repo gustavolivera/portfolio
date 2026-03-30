@@ -1,0 +1,36 @@
+GUSTAVO OLIVEIRA
+Desenvolvedor Full Stack
+social.gustavosilva@gmail.com | (17) 99656-4988 | linkedin.com/in/gustavolivera | github.com/gustavolivera 
+
+EXPERIÊNCIA PROFISSIONAL
+
+INTEGRATIVA - GESTÃO E TECNOLOGIACatanduva - SP
+Analista Desenvolvedor JúniorMAI/2025 - Presente
+Atuei no desenvolvimento e evolução de um sistema web jurídico corporativo utilizando .NET, Angular, PostgreSQL e MongoDB
+Participei do levantamento, análise e detalhamento de requisitos para implementação de novas funcionalidades
+Realizei refatoração de código legado e melhorias estruturais visando maior manutenibilidade, organização e desempenho da aplicação
+Prestei suporte técnico interno ao time de desenvolvimento, estagiários e demais equipes da área de tecnologia
+Atuei na avaliação de merge/pull requests, contribuindo para a qualidade, padronização e consistência do código
+Projetos e entregas relevantes:
+Desenvolvi e mantive a funcionalidade de automação de comunicação multicanal (SMS, WhatsApp e e-mail) para envio escalável de notificações e comunicações relacionadas a processos e cobranças
+Desenvolvi e mantive a funcionalidade de consulta centralizada de processos, integrada a aproximadamente 10 fontes externas, proporcionando maior agilidade e praticidade no acesso a informações jurídicas
+
+Desenvolvedor WebOUT/2024 - MAI/2025
+Atuei no desenvolvimento e manutenção de um sistema web corporativo utilizando C#, .NET e Angular
+Implementei correções, melhorias e novas funcionalidades no sistema
+Realizei ajustes em interfaces front-end e em regras de negócio no back-end
+Apoiei a manutenção e consulta de dados em bancos PostgreSQL e MongoDB
+Participei da identificação e resolução de bugs, testes funcionais e validação de requisitos
+
+EDUCAÇÃO
+
+FACULDADE DE TECNOLOGIA DE CATANDUVACatanduva - SP
+Curso Superior de Tecnologia em Gestão de Tecnologia da Informação2023 - 2025
+Autor do artigo científico Modernização de uma Aplicação Legada: Um Estudo de Caso com Contêineres. O artigo explora a escalabilidade e facilitação na CI/CD com Docker. Publicado na Revista Interface Tecnológica de Taquaritinga.
+Colaborei em projeto acadêmico internacional com interação direta entre estudantes brasileiros e estadunidenses, participando de discussões e análises interculturais sobre produtos agrícolas e práticas contábeis no Brasil e nos Estados Unidos.
+Contribuí para a manutenção e melhoria de um sistema web utilizado na gestão de simpósio da FATEC Catanduva, garantindo seu funcionamento contínuo e suporte aos usuários. Tecnologias utilizadas: NestJS, React, PostgreSQL e Docker.
+
+INFORMAÇÕES ADICIONAIS
+
+Habilidades técnicas: C#, .NET, Typescript, Angular, PostgreSQL, MongoDB, Microsoft Azure, Docker, Git
+Inglês avançado (C1) - TOEIC (Listening: 495, Reading: 465)

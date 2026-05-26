@@ -8,39 +8,41 @@ import { RESUME_DATA } from '../../core/resume.data';
   standalone: true,
   imports: [CommonModule, LucideAngularModule],
   template: `
-    <section id="experience" class="py-24">
-      <h3 class="text-3xl font-bold text-slate-200 mb-12 flex items-center gap-3">
-        Experiência Profissional
-        <div class="h-px bg-slate-800 flex-grow ml-4"></div>
-      </h3>
+    <section id="experience" class="py-14 md:py-16">
+      <div class="mb-10 md:mb-12">
+        <p class="text-secondary-400 font-semibold tracking-wider uppercase text-sm mb-3">Trajetória</p>
+        <h3 class="text-3xl md:text-4xl font-bold text-slate-100">Experiência profissional</h3>
+      </div>
 
-      <div class="space-y-12">
-        <div *ngFor="let job of experience" class="relative group">
-          <div class="absolute -inset-y-6 -inset-x-4 z-0 hidden rounded-xl transition group-hover:bg-slate-800/20 lg:block"></div>
-          <div class="relative z-10 grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8">
-            
-            <header class="md:col-span-1 mt-1 text-sm text-slate-500 uppercase font-semibold tracking-wide flex flex-col gap-1">
-              <span>{{ job.period }}</span>
-              <span class="flex items-center gap-1 text-slate-400">
-                <lucide-icon name="map-pin" [size]="14"></lucide-icon> {{ job.location }}
+      <div class="space-y-6">
+        <article *ngFor="let job of experience" class="glass-card p-6 md:p-8">
+          <div class="grid grid-cols-1 md:grid-cols-[15rem_1fr] gap-6 md:gap-8">
+            <header class="space-y-4">
+              <span class="inline-flex items-center gap-2 rounded-full bg-primary-500/10 text-primary-300 px-3 py-1 text-sm font-semibold">
+                <lucide-icon name="calendar" [size]="15"></lucide-icon>
+                {{ job.period }}
               </span>
+              <p class="flex items-center gap-2 text-slate-400 text-sm">
+                <lucide-icon name="map-pin" [size]="16"></lucide-icon>
+                {{ job.location }}
+              </p>
             </header>
-            
-            <div class="md:col-span-3">
-              <h4 class="text-xl font-semibold text-slate-200 group-hover:text-primary-400 transition-colors">
-                {{ job.role }}
-              </h4>
-              <h5 class="text-lg text-slate-400 mb-4">{{ job.company }}</h5>
+
+            <div>
+              <h4 class="text-xl md:text-2xl font-bold text-slate-100">{{ job.role }}</h4>
+              <p class="mt-1 mb-5 text-primary-300 font-semibold">{{ job.company }}</p>
+              <p *ngIf="job.progression" class="mb-5 rounded-lg border border-slate-800 bg-slate-950/45 px-4 py-3 text-sm text-slate-300 leading-relaxed">
+                {{ job.progression }}
+              </p>
               <ul class="space-y-3">
-                <li *ngFor="let desc of job.description" class="flex items-start text-slate-400 leading-relaxed text-base">
-                  <span class="text-primary-500 mr-3 mt-1.5 flex-shrink-0">▹</span>
+                <li *ngFor="let desc of job.description" class="flex items-start text-slate-400 leading-relaxed">
+                  <span class="mt-2 mr-3 h-1.5 w-1.5 rounded-full bg-secondary-400 flex-shrink-0"></span>
                   <span>{{ desc }}</span>
                 </li>
               </ul>
             </div>
-            
           </div>
-        </div>
+        </article>
       </div>
     </section>
   `
